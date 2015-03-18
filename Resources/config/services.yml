@@ -1,0 +1,29 @@
+parameters:
+    isign_client.service.emitter.class: GuzzleHttp\Event\Emitter
+    isign_client.service.http_client.class: GuzzleHttp\Client
+    isign_client.service.response_mapper.class: Isign\ResponseMapper
+    isign_client.service.client_adapter.class: Isign\Http\GuzzleClientAdapter
+    isign_client.service.client.class: Isign\Client
+
+services:
+    isign_client.service.http_client:
+      class: %isign_client.service.http_client.class%
+
+    isign_client.service.response_mapper:
+      class: %isign_client.service.response_mapper.class%
+
+    isign_client.service.client_adapter:
+      class: %isign_client.service.client_adapter.class%
+      arguments:
+        client: @isign_client.service.http_client
+
+    isign_client.service.client:
+      class: %isign_client.service.client.class%
+      arguments:
+        client: @isign_client.service.client_adapter
+        mapper: @isign_client.service.response_mapper
+        validator: @validator
+        config:
+              apiKey: '%isign_client.api_key%'
+              sandbox: '%isign_client.sandbox%'
+        
