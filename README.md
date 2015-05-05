@@ -16,7 +16,7 @@ isign_client:
 ```
 
 Where:
--   `api_key`: Your API access key. Don't have one? [Request](https://www.isign.io/#request-access) API key.
+-   `api_key`: Your API access key. Don't have one? [Request](https://www.isign.io/contacts#request-access) API key.
 -   `sandbox`: Sandbox mode on/off.
 
 ### Registering the Bundle
