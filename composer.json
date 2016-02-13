@@ -1,6 +1,6 @@
 {
     "name": "isign/client-bundle",
-    "description": "iSign digital signature API client bundle for Symfony framework",
+    "description": "ISIGN.io e-signature API client bundle for Symfony framework",
     "homepage": "http://www.isign.io",
     
     "type": "library",
