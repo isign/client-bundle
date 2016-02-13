@@ -1,5 +1,6 @@
 # IsignClientBundle
-[![Build Status](https://travis-ci.org/isign/client-bundle.svg?branch=master)](https://travis-ci.org/isign/client-bundle)
+[![Build Status](https://travis-ci.org/isign/client-bundle.svg?branch=develop)](https://travis-ci.org/isign/client-bundle)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/isign/client-bundle/badges/quality-score.png?b=develop)](https://scrutinizer-ci.com/g/isign/client-bundle/?branch=develop)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/439ba6a8-7b23-453a-9553-0159e8623355/mini.png)](https://insight.sensiolabs.com/projects/439ba6a8-7b23-453a-9553-0159e8623355)
 
 ## Installation
