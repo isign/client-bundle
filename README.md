@@ -1,4 +1,6 @@
 # IsignClientBundle
+[![Build Status](https://travis-ci.org/isign/client-bundle.svg?branch=master)](https://travis-ci.org/isign/client-bundle)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/439ba6a8-7b23-453a-9553-0159e8623355/mini.png)](https://insight.sensiolabs.com/projects/439ba6a8-7b23-453a-9553-0159e8623355)
 
 ## Installation
 ### Installing via [Composer](https://getcomposer.org)
